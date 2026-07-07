@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pharmatech | Farmacia Online</title>
+  <meta name="description" content="Pharmatech, farmacia online con medicamentos, vitaminas, cuidado personal y promociones para toda la familia.">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Navegacion principal">
+      <a class="brand" href="#inicio" aria-label="Pharmatech inicio">
+        <span class="brand-mark"><i class="fa-solid fa-leaf"></i></span>
+        <span>Pharmatech</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <div class="nav-menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Quienes somos</a>
+        <a href="#catalogo">Catalogo</a>
+        <a href="#ofertas">Ofertas</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-media" role="img" aria-label="Equipo farmaceutico preparando productos de salud"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Farmacia online chilena</p>
+        <h1>Salud, bienestar y confianza para tu dia a dia</h1>
+        <p>Compra medicamentos, vitaminas y productos de cuidado personal con despacho rapido y asesoria farmaceutica cercana.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#catalogo"><i class="fa-solid fa-cart-shopping"></i> Comprar ahora</a>
+          <a class="btn btn-secondary" href="#ofertas">Ver ofertas</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="promo-strip" aria-label="Beneficios">
+      <article>
+        <i class="fa-solid fa-truck-fast"></i>
+        <span>Despacho en 24/48 hrs</span>
+      </article>
+      <article>
+        <i class="fa-solid fa-shield-heart"></i>
+        <span>Productos certificados</span>
+      </article>
+      <article>
+        <i class="fa-solid fa-user-doctor"></i>
+        <span>Orientacion farmaceutica</span>
+      </article>
+      <article>
+        <i class="fa-solid fa-tags"></i>
+        <span>Promociones semanales</span>
+      </article>
+    </section>
+
+    <section class="section carousel-section reveal" aria-label="Promociones">
+      <div class="section-heading">
+        <p class="eyebrow">Campanas destacadas</p>
+        <h2>Promociones para cuidar mejor tu salud</h2>
+      </div>
+      <div class="carousel">
+        <button class="carousel-btn prev" type="button" aria-label="Promocion anterior"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="slides">
+          <article class="slide active">
+            <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1200&q=80" alt="Medicamentos organizados">
+            <div>
+              <span>Hasta 35% dcto.</span>
+              <h3>Medicamentos esenciales</h3>
+              <p>Seleccion de productos para botiquin familiar.</p>
+            </div>
+          </article>
+          <article class="slide">
+            <img src="https://images.unsplash.com/photo-1622484211148-1f9784e27502?auto=format&fit=crop&w=1200&q=80" alt="Vitaminas y suplementos">
+            <div>
+              <span>Pack bienestar</span>
+              <h3>Vitaminas para toda la familia</h3>
+              <p>Refuerza tu rutina diaria con suplementos seleccionados.</p>
+            </div>
+          </article>
+          <article class="slide">
+            <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=1200&q=80" alt="Productos de cuidado personal">
+            <div>
+              <span>2x1 seleccionado</span>
+              <h3>Cuidado personal y dermocosmetica</h3>
+              <p>Proteccion, limpieza e hidratacion para cada piel.</p>
+            </div>
+          </article>
+        </div>
+        <button class="carousel-btn next" type="button" aria-label="Promocion siguiente"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="carousel-dots" aria-label="Indicadores del carrusel"></div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="section about reveal">
+      <div class="about-text">
+        <p class="eyebrow">Quienes somos</p>
+        <h2>Una farmacia digital pensada para personas reales</h2>
+        <p>Pharmatech nace para acercar productos farmaceuticos confiables a hogares de todo Chile, combinando tecnologia, atencion humana y una seleccion responsable de marcas de salud.</p>
+        <p>Nuestro equipo prioriza compras simples, informacion clara y acompaniamiento profesional en cada etapa del cuidado.</p>
+      </div>
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=80" alt="Profesional de salud revisando informacion medica">
+      </div>
+    </section>
+
+    <section class="section pillars reveal">
+      <article>
+        <i class="fa-solid fa-heart-pulse"></i>
+        <h3>Mision</h3>
+        <p>Facilitar el acceso seguro a productos de salud con precios justos, informacion transparente y servicio oportuno.</p>
+      </article>
+      <article>
+        <i class="fa-solid fa-eye"></i>
+        <h3>Vision</h3>
+        <p>Ser una farmacia online referente en Chile por confianza, innovacion y cercania con cada comunidad.</p>
+      </article>
+      <article>
+        <i class="fa-solid fa-hand-holding-heart"></i>
+        <h3>Valores</h3>
+        <p>Responsabilidad, empatia, calidad, privacidad, accesibilidad y compromiso con el bienestar integral.</p>
+      </article>
+    </section>
+
+    <section id="catalogo" class="section catalog reveal">
+      <div class="section-heading catalog-heading">
+        <div>
+          <p class="eyebrow">Catalogo Pharmatech</p>
+          <h2>Productos destacados</h2>
+        </div>
+        <label class="search-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input id="productSearch" type="search" placeholder="Buscar productos..." autocomplete="off">
+        </label>
+      </div>
+
+      <div class="category-pills" aria-label="Categorias">
+        <button class="category active" data-category="todos" type="button">Todos</button>
+        <button class="category" data-category="medicamentos" type="button">Medicamentos</button>
+        <button class="category" data-category="vitaminas" type="button">Vitaminas</button>
+        <button class="category" data-category="cuidado" type="button">Cuidado personal</button>
+        <button class="category" data-category="infantil" type="button">Infantil</button>
+      </div>
+
+      <div class="product-grid" id="productGrid"></div>
+      <p class="empty-state" id="emptyState">No encontramos productos con esa busqueda.</p>
+    </section>
+
+    <section id="ofertas" class="section offers reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Ofertas destacadas</p>
+        <h2>Ahorra en tus esenciales de salud</h2>
+      </div>
+      <div class="offer-grid">
+        <article class="offer-card">
+          <span class="discount">-30%</span>
+          <h3>Botiquin familiar</h3>
+          <p>Analgesicos, termometro digital, suero oral y antiseptico.</p>
+          <strong>$18.990</strong>
+        </article>
+        <article class="offer-card">
+          <span class="discount">2x1</span>
+          <h3>Dermocuidado diario</h3>
+          <p>Bloqueador solar y crema hidratante para piel sensible.</p>
+          <strong>$21.490</strong>
+        </article>
+        <article class="offer-card">
+          <span class="discount">-25%</span>
+          <h3>Pack defensas</h3>
+          <p>Vitamina C, zinc y multivitaminico adulto.</p>
+          <strong>$15.990</strong>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact reveal">
+      <div class="contact-info">
+        <p class="eyebrow">Contacto</p>
+        <h2>Hablemos de tu salud</h2>
+        <p>Escribenos para consultas sobre disponibilidad, despachos, convenios o asesoria farmaceutica.</p>
+        <ul>
+          <li><i class="fa-solid fa-location-dot"></i> Av. Salud 1234, Santiago, Chile</li>
+          <li><i class="fa-solid fa-phone"></i> +56 9  3898  4537</li>
+          <li><i class="fa-solid fa-envelope"></i> contacto@pharmatech.cl</li>
+        </ul>
+      </div>
+      <form class="contact-form">
+        <label>Nombre
+          <input type="text" name="nombre" placeholder="Tu nombre" required>
+        </label>
+        <label>Email
+          <input type="email" name="email" placeholder="tu@email.cl" required>
+        </label>
+        <label>Mensaje
+          <textarea name="mensaje" rows="5" placeholder="Cuéntanos en que podemos ayudarte" required></textarea>
+        </label>
+        <button class="btn btn-primary" type="submit"><i class="fa-solid fa-paper-plane"></i> Enviar mensaje</button>
+        <p class="form-status" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <a class="brand footer-brand" href="#inicio">
+        <span class="brand-mark"><i class="fa-solid fa-leaf"></i></span>
+        <span>Pharmatech</span>
+      </a>
+      <p>Farmacia online con identidad chilena, productos certificados y atencion cercana.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#catalogo">Catalogo</a>
+      <a href="#ofertas">Promociones</a>
+      <a href="#contacto">Ayuda</a>
+    </div>
+    <div class="social-links" aria-label="Redes sociales">
+      <a href="https://www.facebook.com/" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.tiktok.com/" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+      <a href="https://www.youtube.com/" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://wa.me/56 9 3898 4537" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/56912345678" aria-label="Contactar por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
